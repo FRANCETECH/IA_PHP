@@ -1,0 +1,25 @@
+Exercice 1: Fusion de deux tableaux
+Enoncé : Écrire une fonction fusionner_tableaux qui prend deux tableaux comme arguments et retourne un tableau contenant tous les éléments 
+des deux tableaux d'entrée, sans doublons (en utlisant la fonction: array_unique).
+
+Exemple:
+$tab1 = [1, 2, 3];
+$tab2 = [3, 4, 5];
+$resultat = fusionner_tableaux($tab1, $tab2);
+// $resultat doit être [1, 2, 3, 4, 5]
+
+===========================================================================================================================================
+Exercice 2: Compter les occurrences dans un tableau
+Enoncé : Écrire une fonction compter_occurrences qui prend un tableau comme argument et retourne un tableau associatif où les clés sont 
+les éléments distincts du tableau d'entrée et les valeurs sont le nombre d'occurrences de chaque élément
+
+Exemple:
+$tab = [1, 2, 2, 3, 1, 2, 4];
+$resultat = compter_occurrences($tab);
+// $resultat doit être ['1' => 2, '2' => 3, '3' => 1, '4' => 1]
+
+============================================================================================================================================
+
+Exercice 3: Vérifier si un tableau est trié
+Enoncé : Écrire une fonction est_trie qui prend un tableau de nombres comme argument et retourne true si le tableau est trié par ordre 
+croissant ou décroissant, et false sinon.
